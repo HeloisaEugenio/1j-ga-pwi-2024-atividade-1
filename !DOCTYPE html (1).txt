@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gostos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffd3dd;
+    }
+    header {
+      background-color: #cca1c9;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      background: #cca1c9;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    h1 {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 100px;
+      height: auto;
+      border-radius: 8px;
+    }
+    figcaption {
+      font-size: 0.8em;
+      color: #555;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Quem Sou Eu?</a></li>
+        <li><a href="Gostos.html">Gostos</a></li>
+        <li><a href="Hobbies.html">Hobbies</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Meus Jogos Favoritos</h1>
+    <div class="container">
+      <figure>
+        <img src="Stardew_valley.png" alt="Stardew Valley" class="profile-pic">
+        <figcaption>Stardew Valley</figcaption>
+      </figure>
+      <figure>
+        <img src="Zelda.png" alt="The Legend Of Zelda" class="profile-pic">
+        <figcaption>The Legend Of Zelda</figcaption>
+      </figure>
+      <figure>
+        <img src="Lol.jpg" alt="League Of Legends" class="profile-pic">
+        <figcaption>League Of Legends</figcaption>
+      </figure>
+      <figure>
+        <img src="Potion_permit.jpg" alt="Potion Permit" class="profile-pic">
+        <figcaption>Potion Permit</figcaption>
+      </figure>
+      <figure>
+        <img src="Ace.png" alt="Ace Attorney" class="profile-pic">
+        <figcaption>Ace Attorney</figcaption>
+      </figure>
+      <figure>
+        <img src="Animal Crossing.jpg" alt="Animal Crossing" class="profile-pic">
+        <figcaption>Animal Crossing</figcaption>
+      </figure>
+    </div>
+  </main>
+  <main>
+    <h1>Minhas músicas favoritas</h1>
+    <div class="container">
+      <figure>
+        <img src="Jojii.jpg" alt="Joji" class="profile-pic">
+        <figcaption>Slow Dancing in the Dark</figcaption>
+      </figure>
+      <figure>
+        <img src="dead.jpg" alt="money" class="profile-pic">
+        <figcaption>Sex Money Feelings Die</figcaption>
+      </figure>
+      <figure>
+        <img src="Machine.jpg" alt="Machine" class="profile-pic">
+        <figcaption>The Machine</figcaption>
+      </figure>
+      <figure>
+        <img src="Lana.jpg" alt="Lana Del Rey" class="profile-pic">
+        <figcaption>Jealousy Girl</figcaption>
+      </figure>
+      <figure>
+        <img src="Haunted.jpg" alt="Haunted" class="profile-pic">
+        <figcaption>Haunted</figcaption>
+      </figure>
+      <figure>
+        <img src="me.jpg" alt="Me" class="profile-pic">
+        <figcaption>Somebody's watching me</figcaption>
+    </div>
+  </main>
+  <main>
+    <h1>Meus animes/séries/filmes favoritos</h1>
+    <div class=container>
+      <figure>
+    <img src="Marnie.jpg" alt="As memórias de Marnie" class="profile-pic">
+        <figcaption>As memórias de Marnie</figcaption>
+      </figure>
+      <figure>
+      <img src="Dungeon.jpg" alt="Meshi" class="profile-pic">
+        <figcaption>Dungeon Meshi</figcaption>
+      </figure>
+      <figure>
+        <img src="Scream.jpg" alt="Pânico" class="profile-pic">
+        <figcaption>Scream</figcaption>
+      </figure>
+      <figure>
+        <img src="Touch.jpg" alt="wtf" class="profile-pic">
+        <figcaption>Behing your touch</figcaption>
+      </figure>
+      <figure>
+        <img src="Spy.jpg" alt="family" class="profile-pic">
+        <figcaption>Spy X Family</figcaption>
+        <img src="Arcane.jpg" alt="Arcane" class="profile-pic">
+        <figcaption>Arcane</figcaption>
+      </figure>
+      
+      </figure>
+  </main>
+</body>
+</html>
